@@ -16,6 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
+    padding-top: 20px;
 }
 
 .logo {
@@ -48,13 +49,13 @@ a {
     flex: 1;
 }
 
-h1 {
+.text-container h1 {
     font-size: 48px;
     font-weight: 900;
     margin: 0 0 10px 0;
 }
 
-p {
+.text-container p {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0 0 20px 0;
@@ -92,6 +93,7 @@ img {
 }
 
 .header2 {
+    padding-top: 50px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -130,6 +132,28 @@ img {
     color: #0c0c0c;
 }
 
-p{
+.subtext p{
     color: #8b8d91;
+}
+
+.page-three{
+    background-color: #E5E7EB;
+    padding: 80px;
+    
+}
+
+.quote p{
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.person h1{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
 }
