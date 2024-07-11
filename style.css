@@ -157,3 +157,45 @@ img {
     justify-content: flex-end;
     font-size: 18px;
 }
+
+.page-four {
+    background-color: #3882F6;
+    margin: 40px;
+    border-radius: 8px;
+    padding: 40px 80px;
+  }
+  
+  .cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .cta-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cta-text h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cta-text p {
+    margin: 5px 0 0;
+    font-size: 16px;
+  }
+  
+  .cta-container button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-left: 20px; /* Add some space between text and button */
+  }
